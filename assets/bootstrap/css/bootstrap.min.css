@@ -5718,9 +5718,11 @@ fieldset:disabled .btn {
   opacity: 1;
 }
 .carousel-caption {
-  position: center;
-  right: 15%;
-  top: 1.25rem;
+  background: rgba(0, 0, 0, 0.35);
+  position: absolute;
+  top:40px;
+  right: 20%;
+  bottom: initial;
   left: 15%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
